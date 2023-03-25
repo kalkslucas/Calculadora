@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background: linear-gradient(to right, rgb(212, 212, 212), rgb(255, 255, 255))
+}
+
+.calculadora {
+    margin: 60px auto;
+    width: 430px;
+    height: 450px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    background: rgb(119, 119, 119);
+    box-shadow: 0 10px 50px gray;    
+}
+
+.teclas {
+    width: 372px;
+    margin: 0 auto;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: darkgray;
+    color: white;
+    box-shadow: 0 1px 5px black;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.botao:active {
+    background-color: white;
+    color: black;
+}
+
+.igual {
+    width: 130px;
+    height: 50px;
+    margin: 15px;
+    margin-right: 0;
+    border-radius: 5px;
+    border: 1px solid darkred;
+    background-color: lightcoral;
+    color: white;
+    box-shadow: 0 1px 5px black;
+}
+
+.igual:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.igual:active {
+    background-color: red;
+    color: black;
+}
+
+.igual p {
+    margin: 7%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.limpar {
+    width: 130px;
+    height: 50px;
+    margin: 15px;
+    margin-right: 0;
+    border-radius: 5px;
+    border: 1px solid darkorange;
+    background-color: lightsalmon;
+    color: white;
+    box-shadow: 0 1px 5px black;
+}
+
+.limpar:hover {
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+.limpar:active {
+    background-color: yellow;
+    color: black;
+}
+
+.limpar p {
+    margin: 7%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.numero {
+    text-align: center;
+    margin: 30%;
+    font-weight: 700;
+}
+
+.tela {
+    width: 374px;
+    height: 70px;
+    margin: 23px 26px 10px;
+    border-radius: 5px;
+    border: 1px solid darkolivegreen;
+    background-color: lightyellow;
+    color: black;
+    box-shadow: 0 1px 5px black;
+    font-weight: 700;
+}
+
+.numero-tela {
+    text-align: end;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+.floatLeft {
+    float: left;
+}

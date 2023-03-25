@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="/images/vector-calculator-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="calculadora">
+          <input class="tela numero-tela" id="resultado" placeholder="0" disabled></input>
+          <div class="teclas">
+            <div class="botao floatLeft" onclick="calcular('valor', 7)" style="margin-left: 0;"><p class="numero">7</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 8)"><p class="numero">8</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 9)"><p class="numero">9</p></div>
+            <div class="limpar floatLeft" onclick="calcular('acao', '')" id="CE"><p>CE</p></div>
+              <br style="clear: both;">
+            <div class="botao floatLeft" onclick="calcular('valor', 4)" style="margin-left: 0;"><p class="numero">4</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 5)"><p class="numero">5</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 6)"><p class="numero">6</p></div>
+            <div class="botao floatLeft" onclick="calcular('acao', '/')"><p class="numero">/</p></div>
+            <div class="botao floatLeft" onclick="calcular('acao', '+')"style="margin-right: 0;"><p class="numero">+</p></div>
+              <br style="clear: both;">
+            <div class="botao floatLeft" onclick="calcular('valor', 1)" style="margin-left: 0;"><p class="numero">1</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 2)"><p class="numero">2</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 3)"><p class="numero">3</p></div>
+            <div class="botao floatLeft" onclick="calcular('acao', '*')"><p class="numero">*</p></div>
+            <div class="botao floatLeft" onclick="calcular('acao', '-')" style="margin-right: 0;"><p class="numero">-</p></div>
+              <br style="clear: both;">
+            <div class="botao floatLeft" onclick="calcular('valor', 0)" style="margin-left: 0;"><p class="numero">0</p></div>
+            <div class="botao floatLeft" onclick="calcular('valor', 00)"><p class="numero">00</p></div>
+            <div class="botao floatLeft" onclick="calcular('acao', '.')"><p class="numero">.</p></div>
+            <div class="igual floatLeft" onclick="calcular('acao', '=')"><p>=</p></div>
+              <br style="clear: both;">
+          </div>
+        </div>
+    </main>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
